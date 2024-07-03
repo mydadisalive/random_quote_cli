@@ -1,0 +1,22 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore your specific project files or directories
+# Example: ignore files generated during development or local configuration files
+/random_quote_cli/venv/
