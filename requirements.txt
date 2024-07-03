@@ -1,3 +1,4 @@
 click
 requests
 requests-mock   # Only for testing
+websockets
