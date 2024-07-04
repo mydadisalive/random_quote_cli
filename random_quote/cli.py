@@ -38,5 +38,10 @@ async def send_to_websocket_server(message):
         await websocket.send(message)
         click.echo(f"Sent to WebSocket: {message}")
 
+        # Receiving and handling server response
+        response = await websocket.recv()
+        click.echo(f"Received from WebSocket: {response}")
+
+
 if __name__ == '__main__':
     main()
