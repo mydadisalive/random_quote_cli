@@ -15,7 +15,7 @@ pip install dist/random_quote_cli-1.0.0-py3-none-any.whl
 Before installation, ensure you have built the package:
 
 ```bash
-bash ./build.sh
+bash build.sh
 ```
 
 ## Tests
@@ -23,5 +23,5 @@ bash ./build.sh
 To run tests, execute the following command:
 
 ```bash
-./run_tests.sh
+bash run_tests.sh
 ```
