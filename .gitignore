@@ -20,3 +20,6 @@ env/
 # Ignore your specific project files or directories
 # Example: ignore files generated during development or local configuration files
 /random_quote_cli/venv/
+
+
+creds.sh

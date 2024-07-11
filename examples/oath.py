@@ -10,7 +10,7 @@ client_id = os.getenv('GITHUB_CLIENT_ID', 'your_client_id')
 client_secret = os.getenv('GITHUB_CLIENT_SECRET', 'your_client_secret')
 authorization_base_url = 'https://github.com/login/oauth/authorize'
 token_url = 'https://github.com/login/oauth/access_token'
-redirect_uri = 'https://4f88-2a0d-6fc2-4200-a100-89b0-90ba-8e02-251a.ngrok-free.app'
+redirect_uri = 'https://848a-2a0d-6fc2-4200-a100-f089-971-1d43-2e30.ngrok-free.app'
 scope = ['user']
 
 # A simple HTTP server to handle the OAuth callback
