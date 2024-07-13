@@ -3,3 +3,4 @@ requests
 requests-oauthlib
 requests-mock   # Only for testing
 websockets
+wheel
