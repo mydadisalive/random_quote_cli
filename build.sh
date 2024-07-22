@@ -7,7 +7,13 @@ rm -rf build dist *.egg-info
 python setup.py sdist bdist_wheel
 
 # Check the dist directory to see the created distribution files
-ls dist
+#ls dist
 
 # Upload to pypi
-twine upload dist/*
+#twine upload dist/*
+
+# build using pyinstaller
+pyinstaller --onefile random_quote/cli.py
+
+# verify
+pyi-archive_viewer -l dist/cli.exe

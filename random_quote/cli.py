@@ -21,7 +21,7 @@ def main(author, send_to_websocket):
         response = requests.get(API_URL, params=params)
         response.raise_for_status()
         data = response.json()
-        quote = data.get('content')
+        quote = data.get('content') # data['conent'], data.get('content','null')
         author = data.get('author')
         click.echo(f"Random Quote: {quote}")
         if author:
